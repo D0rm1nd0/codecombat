@@ -53,12 +53,12 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     players: "jogadores" # Hover over a level on /play
     hours_played: "horas jogadas" # Hover over a level on /play
     items: "Items" # Tooltip on item shop button from /play
-#    unlock: "Unlock" # For purchasing items and heroes
-#    confirm: "Confirm"
+    unlock: "Desbloquear" # For purchasing items and heroes
+    confirm: "Confirmar"
 #    owned: "Owned" # For items you own
-#    locked: "Locked"
+    locked: "Bloqueado"
 #    purchasable: "Purchasable" # For a hero you unlocked but haven't purchased
-#    available: "Available"
+    available: "Disponivel"
 #    skills_granted: "Skills Granted" # Property documentation details
     heroes: "Heróis" # Tooltip on hero shop button from /play
     achievements: "Conquistas" # Tooltip on achievement list button from /play
@@ -121,12 +121,12 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     recovery_sent: "Email de recuperação enviado."
 
   items:
-#    primary: "Primary"
-#    secondary: "Secondary"
+    primary: "Primário"
+    secondary: "Secundário"
     armor: "Armadura"
     accessories: "Accessórios"
     misc: "Diversos"
-#    books: "Books"
+    books: "Livros"
 
   common:
     loading: "Carregando..."
@@ -152,7 +152,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     body: "Principal"
     version: "Versão"
     commit_msg: "Mensagem do Commit"
-    version_history: "Version History Histórico de Versão"
+    version_history: "Histórico de Versão"
     version_history_for: "Histórico de Versão para: "
     result: "Resultado"
     results: "Resultados"
@@ -210,8 +210,8 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     failing: "Falta"
     action_timeline: "Linha do Tempo das Ações"
     click_to_select: "Clique em um personagem para selecioná-lo."
-#    control_bar_multiplayer: "Multiplayer"
-#    control_bar_join_game: "Join Game"
+    control_bar_multiplayer: "Multijogador"
+    control_bar_join_game: "Entrar no Jogo"
     reload: "Recarregar"
     reload_title: "Recarregar Todo o Código?"
     reload_really: "Você tem certeza que quer reiniciar o estágio?"
@@ -226,10 +226,10 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
 #    victory_play_skip: "Skip Ahead"
     victory_play_next_level: "Jogar o próximo estágio"
 #    victory_play_more_practice: "More Practice"
-#    victory_play_too_easy: "Too Easy"
-#    victory_play_just_right: "Just Right"
-#    victory_play_too_hard: "Too Hard"
-#    victory_saving_progress: "Saving Progress"
+    victory_play_too_easy: "Muito Fácil"
+    victory_play_just_right: "Justo"
+    victory_play_too_hard: "Muito Difícil"
+    victory_saving_progress: "Salvando Progresso"
     victory_go_home: "Ir à página inicial" # Only in old-style levels.
     victory_review: "Diga-nos mais!" # Only in old-style levels.
     victory_hour_of_code_done: "Terminou?"
@@ -248,7 +248,7 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
     tome_select_a_thang: "Selecione alguém para "
     tome_available_spells: "Feitiços Disponíveis"
     tome_your_skills: "Suas habilidades"
-#    tome_help: "Help"
+    tome_help: "Ajuda"
 #    tome_current_method: "Current Method"
 #    hud_continue_short: "Continue"
     code_saved: "Código Salvo"
@@ -318,8 +318,8 @@ module.exports = nativeDescription: "português do Brasil", englishDescription: 
 #    equipped: "(equipped)"
 #    locked: "(locked)"
 #    restricted: "(restricted in this level)"
-#    equip: "Equip"
-#    unequip: "Unequip"
+    equip: "Equipar"
+    unequip: "Desequipar"
 
 #  buy_gems:
 #    few_gems: "A few gems"
